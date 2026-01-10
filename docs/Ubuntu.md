@@ -24,13 +24,13 @@ sudo nano /etc/apt/sources.list.d/ubuntu.sources
 
 ```yaml
 Types: deb
-URIs: http://mirrors.zzu.edu.cn/ubuntu/
+URIs: https://mirrors.zzu.edu.cn/ubuntu/
 Suites: noble noble-updates noble-backports
 Components: main restricted universe multiverse
 Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 
 Types: deb
-URIs: http://mirrors.zzu.edu.cn/ubuntu/
+URIs: https://mirrors.zzu.edu.cn/ubuntu/
 Suites: noble-security
 Components: main restricted universe multiverse
 Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
@@ -39,8 +39,8 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 ### 4. 一键替换命令
 
 ```bash
-sudo sed -i 's|http://archive.ubuntu.com|http://mirrors.zzu.edu.cn|g' /etc/apt/sources.list.d/ubuntu.sources
-sudo sed -i 's|http://security.ubuntu.com|http://mirrors.zzu.edu.cn|g' /etc/apt/sources.list.d/ubuntu.sources
+sudo sed -i 's|http://archive.ubuntu.com|https://mirrors.zzu.edu.cn|g' /etc/apt/sources.list.d/ubuntu.sources
+sudo sed -i 's|http://security.ubuntu.com|https://mirrors.zzu.edu.cn|g' /etc/apt/sources.list.d/ubuntu.sources
 ```
 
 ---
@@ -64,26 +64,26 @@ sudo nano /etc/apt/sources.list
 #### Ubuntu 22.04 (Jammy)
 
 ```bash
-deb http://mirrors.zzu.edu.cn/ubuntu/ jammy main restricted universe multiverse
-deb http://mirrors.zzu.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse
-deb http://mirrors.zzu.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse
-deb http://mirrors.zzu.edu.cn/ubuntu/ jammy-security main restricted universe multiverse
+deb https://mirrors.zzu.edu.cn/ubuntu/ jammy main restricted universe multiverse
+deb https://mirrors.zzu.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse
+deb https://mirrors.zzu.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse
+deb https://mirrors.zzu.edu.cn/ubuntu/ jammy-security main restricted universe multiverse
 ```
 
 #### Ubuntu 20.04 (Focal)
 
 ```bash
-deb http://mirrors.zzu.edu.cn/ubuntu/ focal main restricted universe multiverse
-deb http://mirrors.zzu.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
-deb http://mirrors.zzu.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
-deb http://mirrors.zzu.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+deb https://mirrors.zzu.edu.cn/ubuntu/ focal main restricted universe multiverse
+deb https://mirrors.zzu.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+deb https://mirrors.zzu.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+deb https://mirrors.zzu.edu.cn/ubuntu/ focal-security main restricted universe multiverse
 ```
 
 ### 4. 一键替换命令
 
 ```bash
-sudo sed -i 's|http://archive.ubuntu.com|http://mirrors.zzu.edu.cn|g' /etc/apt/sources.list
-sudo sed -i 's|http://security.ubuntu.com|http://mirrors.zzu.edu.cn|g' /etc/apt/sources.list
+sudo sed -i 's|http://archive.ubuntu.com|https://mirrors.zzu.edu.cn|g' /etc/apt/sources.list
+sudo sed -i 's|http://security.ubuntu.com|https://mirrors.zzu.edu.cn|g' /etc/apt/sources.list
 ```
 
 ## 5. 更新软件包索引

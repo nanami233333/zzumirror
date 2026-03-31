@@ -1,46 +1,30 @@
-# Arch Linux 镜像源配置指南
+# Arch Linux 镜像源配置
 
-使用郑州大学镜像源 (mirrors.zzu.edu.cn) 加速 Arch Linux 软件包下载。
+使用郑州大学镜像源加速 Arch Linux 软件包下载。
 
----
+镜像地址? 文档目录
 
-## 1. 备份原有镜像列表文件
+本目录提供郑州大学开源镜像站各??
+本目录提表
+## Linux 发行版
 
-```bash
-sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
+- [Ubuntu 通用配置](./Ubuntu.md)
+- [Ubuntu Releases 镜像](./ubuntu-releases.md)
+- [Ubuntu Ports ?ve
+- [Ubuntu//mirrors.- [Ubuntu Releases 镜像](./ubuntu' - [Ubuntu Ports 镜像](./ubuntu-ports.md)
+- [A? [Arch Linux 镜???，可将此行追加- [Arch Linux CN 镜像](./archlinux??
+## 常用软件`bash
+sudo pacman -Syyu
 ```
 
-## 2. 编辑镜像列表文件
+- [Docker CE](./??? [MySQL](./mysql.md)
+- [Posre- [PostgreSQL](./pos??- [Qt](./qt.md)
+- [CTAN](./CTA``- [CTAN](./CT/et
+## 使用建议
 
-```bash
-sudo nano /etc/pacman.d/mirrorlist
-```
+ist
+1. 配置前?n.2. 修改源后执行更新命令，?
+3. 若遇到 GPG 或版本代号问题，优先检查发行版代
 
-## 3. 替换为郑州大学镜像源
+4. 如果你在内网或校园网环境，建议优先使用 HTTPS 地址。
 
-在文件最顶端添加以下内容：
-
-```bash
-Server = https://mirrors.zzu.edu.cn/archlinux/$repo/os/$arch
-```
-
-## 4. 刷新软件包数据
-
-```bash
-sudo pacman -Syy
-```
-
-## 5. 升级已安装的软件包（可选）
-
-```bash
-sudo pacman -Syu
-```
-
-## 常见问题
-
-### 如何恢复默认源？
-
-```bash
-sudo cp /etc/pacman.d/mirrorlist.bak /etc/pacman.d/mirrorlist
-sudo pacman -Syy
-```

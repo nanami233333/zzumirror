@@ -2,6 +2,14 @@
 
 通过郑州大学镜像源 (mirrors.zzu.edu.cn) 高速下载 Ubuntu ISO 安装镜像文件。
 
+## 一键配置
+
+使用以下命令可以一键配置镜像源，无需手动修改配置文件：
+
+```bash
+bash <(curl -sSL https://mirrors.zzu.edu.cn/main.sh)
+```
+
 ---
 
 ## 1. 直接网页浏览

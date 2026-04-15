@@ -4,6 +4,14 @@
 
 > **注意**: Ubuntu 24.04 及更新版本的源配置已迁移到 `/etc/apt/sources.list.d/ubuntu.sources`，使用新的 DEB822 格式。
 
+## 一键配置
+
+使用以下命令可以一键配置镜像源，无需手动修改配置文件：
+
+```bash
+bash <(curl -sSL https://mirrors.zzu.edu.cn/main.sh)
+```
+
 ---
 
 ## Ubuntu 24.04+ (新版 DEB822 格式)

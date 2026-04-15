@@ -2,6 +2,14 @@
 
 使用郑州大学镜像源 (mirrors.zzu.edu.cn) 加速 PostgreSQL 安装。
 
+## 一键配置
+
+使用以下命令可以一键配置镜像源，无需手动修改配置文件：
+
+```bash
+bash <(curl -sSL https://mirrors.zzu.edu.cn/main.sh)
+```
+
 ---
 
 ## 1. 导入 GPG 密钥

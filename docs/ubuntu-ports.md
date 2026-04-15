@@ -4,6 +4,14 @@
 
 > **注意**: 适用于 arm64, armhf, ppc64el 等架构，一般位于树莓派或 ARM 云服务器中。
 
+## 一键配置
+
+使用以下命令可以一键配置镜像源，无需手动修改配置文件：
+
+```bash
+bash <(curl -sSL https://mirrors.zzu.edu.cn/main.sh)
+```
+
 ---
 
 ## 1. 备份原有源文件

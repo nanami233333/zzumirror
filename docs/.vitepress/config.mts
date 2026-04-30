@@ -2,23 +2,21 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  title: '郑州大学开源镜像站wiki',
+  description: 'WIKI 4 YOU',
   base: '/wiki/',
   lang: 'zh-CN',
-  title: 'ZZU Mirror',
-  titleTemplate: ':title · 郑州大学开源镜像站',
-  description: '郑州大学开源镜像站 wiki — 一条命令完成 Linux 软件源配置',
-
   cleanUrls: true,
   lastUpdated: true,
 
   head: [
     ['meta', { name: 'theme-color', content: '#0071e3' }],
-    ['meta', { name: 'keywords', content: '郑州大学,开源镜像,mirror,ubuntu,arch,docker,mysql' }],
+    ['meta', { name: 'keywords', content: '郑州大学,开源镜像,mirror,ubuntu,arch,docker,mysql,postgresql,qt,ctan' }],
   ],
 
   themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
     siteTitle: 'ZZU Mirror',
-    outline: { level: [2, 3], label: '本页内容' },
 
     nav: [
       { text: '首页', link: '/' },
@@ -81,21 +79,6 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/nanami233333/agents-a068b4f494' },
     ],
 
-    footer: {
-      message: 'Made with ❤ at Zhengzhou University',
-      copyright: 'ZZU Open Source Mirror',
-    },
-
-    docFooter: {
-      prev: '上一篇',
-      next: '下一篇',
-    },
-
-    lastUpdated: {
-      text: '最后更新于',
-      formatOptions: { dateStyle: 'short', timeStyle: 'short' },
-    },
-
     search: {
       provider: 'local',
       options: {
@@ -118,11 +101,23 @@ export default defineConfig({
       },
     },
 
-    outlineTitle: '本页内容',
+    footer: {
+      message: 'Made with ❤ at Zhengzhou University',
+      copyright: 'ZZU Open Source Mirror',
+    },
+
+    docFooter: { prev: '上一篇', next: '下一篇' },
+
+    outline: { level: [2, 3], label: '本页内容' },
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
+
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: { dateStyle: 'short', timeStyle: 'short' },
+    },
   },
 })

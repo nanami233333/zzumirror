@@ -139,6 +139,6 @@ dpkg --print-architecture
 
 <div align="center">
 
-[← 返回文档中心](./README.md) · [返回项目主页](../README.md)
+[← 返回文档中心](./README.md) · [返回项目主页](/)
 
 </div>

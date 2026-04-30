@@ -168,6 +168,6 @@ curl -fsSL https://mirrors.zzu.edu.cn/docker-ce/linux/ubuntu/gpg | sudo gpg --de
 
 <div align="center">
 
-[← 返回文档中心](./README.md) · [返回项目主页](../README.md)
+[← 返回文档中心](./README.md) · [返回项目主页](/)
 
 </div>

@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: '郑州大学开源镜像站wiki',
+  title: '郑州大学开源镜像站Wiki',
   description: 'WIKI 4 Y0U',
   base: '/wiki/',
   lang: 'zh-CN',

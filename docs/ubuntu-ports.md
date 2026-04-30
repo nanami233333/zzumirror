@@ -118,7 +118,7 @@ dpkg --print-architecture
 
 | 输出结果                                              | 应使用的源                          |
 | :---------------------------------------------------- | :---------------------------------- |
-| `amd64` / `i386`                                      | [标准 Ubuntu 源](./Ubuntu.md)       |
+| `amd64` / `i386`                                      | [标准 Ubuntu 源](./ubuntu.md)       |
 | `arm64` / `armhf` / `ppc64el` / `riscv64` / `s390x`  | **本文档**(Ubuntu Ports 源)       |
 
 > [!NOTE]

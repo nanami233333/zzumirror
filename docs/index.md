@@ -257,7 +257,7 @@ features:
 
 <div class="zm-grid">
 
-<a class="zm-card" href="/Ubuntu">
+<a class="zm-card" href="/ubuntu">
 <div class="zm-card-title">Ubuntu</div>
 <p class="zm-card-desc">APT 软件包源，桌面与服务器通用。</p>
 <span class="zm-card-arrow">›</span>
@@ -326,7 +326,7 @@ features:
 <span class="zm-card-arrow">›</span>
 </a>
 
-<a class="zm-card" href="/CTAN">
+<a class="zm-card" href="/ctan">
 <div class="zm-card-title">CTAN</div>
 <p class="zm-card-desc">TeX Live 宏包仓库。</p>
 <span class="zm-card-arrow">›</span>

@@ -30,7 +30,7 @@
 
 | 文档                                            | 说明                                       | 适用人群                                |
 | :---------------------------------------------- | :----------------------------------------- | :-------------------------------------- |
-| [Ubuntu 通用配置](./Ubuntu.md)                   | Ubuntu 系统 APT 软件源配置                 | Ubuntu 桌面 / 服务器用户                |
+| [Ubuntu 通用配置](./ubuntu.md)                   | Ubuntu 系统 APT 软件源配置                 | Ubuntu 桌面 / 服务器用户                |
 | [Ubuntu Releases 镜像](./ubuntu-releases.md)     | Ubuntu 系统 ISO 安装镜像下载               | 需要安装或重装 Ubuntu 的用户            |
 | [Ubuntu Ports 镜像](./ubuntu-ports.md)           | ARM / RISC-V 等非 x86 架构的 Ubuntu 软件源 | 树莓派、ARM 服务器用户                  |
 | [Arch Linux 镜像](./archlinux.md)                | Arch Linux 官方仓库配置                    | Arch Linux 用户                         |
@@ -46,7 +46,7 @@
 | [MySQL](./mysql.md)            | MySQL 数据库安装源配置     | 数据库管理员、后端开发者                |
 | [PostgreSQL](./postgresql.md)  | PostgreSQL 数据库安装源配置 | 数据库管理员、后端开发者                |
 | [Qt](./qt.md)                  | Qt 开发框架下载与安装      | C++ / Qt 桌面应用开发者                 |
-| [CTAN](./CTAN.md)              | TeX Live 宏包仓库源配置    | 使用 LaTeX 写论文或排版的用户           |
+| [CTAN](./ctan.md)              | TeX Live 宏包仓库源配置    | 使用 LaTeX 写论文或排版的用户           |
 
 ---
 
